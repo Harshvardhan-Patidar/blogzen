@@ -1,3 +1,5 @@
+/* This is a index.html css file  */
+
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
@@ -120,6 +122,17 @@ body{
     color: #7D41E2;
 }
 
+#loginButton{
+    border: 1px solid #f6f8f9;
+    background-color: #208FF4;
+    color: white;
+}
+
+#loginButton:hover{
+    border: 1px solid #208FF4;
+    background-color: transparent;
+    color: #2a95f6;
+}
 
 #signup:hover{
     border: 1px solid #208FF4;

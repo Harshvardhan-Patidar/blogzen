@@ -17,19 +17,19 @@
 }
 .sec2btn2{
     cursor: pointer;
-    height: 2.5vw;
-    width: 7.2vw;
+    height: auto;
+    width: auto;
+    padding: 4px;
     margin: 0 1.3vw;
     border-radius: 1vw;
     border: none;
     border: 1px solid #ff765d;
-    background-color: white;
     margin: 0 1vw;
     font-size: 0.8em;
     color: black;
 }
 .sec2btn2-recent:hover{
-    color: #fff;
+    color: black;
     background-color: #ff765d;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
