@@ -12,8 +12,9 @@
 }
 
 .sec2buttons{
-    width: 20vw;
-    margin-left: 9.5vw;
+    /* width: 20vw;
+    margin-left: 9.5vw; */
+    margin: 20px;
 }
 .sec2btn2{
     cursor: pointer;

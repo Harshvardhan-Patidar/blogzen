@@ -30,3 +30,8 @@ overlay.addEventListener('click', (event) => {
     overlay.style.display = 'none';
   }
 });
+
+var show = document.getElementById('optionbar');
+show.addEventListener('click',()=>{
+  document.getElementsById('optionshow').style.display = 'none';
+})

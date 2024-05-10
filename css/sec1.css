@@ -12,19 +12,21 @@
 }
 
 .s1part1 {
-    height: 7vw;
+    height: auto;
     width: 80vw;
     margin: 3.2vw auto;
     border-radius: 2vw;
     background-color: #7D41E2;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .s1part1 span {
     position: relative;
-    top: 1.3vw;
-    left: 37vw;
+    /* top: 1.3vw;
+    left: 37vw; */
     font-size: 2.7em;
     font-weight: bold;
     color: white;
@@ -50,14 +52,15 @@
 }
 
 .s1part2 {
-    /* border: 1px solid black; */
+    /* border: 1px solid black;
     height: 5vw;
-    width: 40vw;
+    width: 40vw; 
     position: relative;
-    left: 33vw;
-    bottom: 3vw;
+    bottom: 3vw;  */
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .s1part2 a:hover {
